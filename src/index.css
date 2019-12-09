@@ -1,0 +1,189 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: rgb(236, 240, 244, 0.5);
+}
+
+.table {
+  width: 1000px;
+  margin: auto;
+  padding: 45px 30px 30px 45px;
+  border-spacing: 0;
+  background: white;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+}
+
+.table th {
+  border-bottom: 2px solid #596D86;
+  color: #596D86;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.table tr {
+  height: 55px;
+}
+
+.table td {
+  padding: 0 20px 0 20px;
+}
+
+.table tr:nth-child(2n) {
+  background: rgb(236, 240, 244, 0.5);
+}
+
+.activeTable {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 0 auto;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #596D86;
+}
+
+.disabledTable {
+  display: none;
+  position: absolute;
+}
+
+input, select {
+  background: rgb(236, 240, 244);
+  padding: 0 5px 0 5px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+select {
+  width: 171px;
+}
+
+.shortInput {
+  width: 50px;
+  margin-right: 112px;
+}
+
+.block {
+  float: left;
+}
+
+label {
+  float: left;
+  margin-left: 30px;
+}
+
+.field {
+  clear: both;
+  text-align: right;
+  line-height: 25px;
+}
+
+.underTableArea {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+  width: 1000px;
+  margin: 10px auto;
+}
+
+.submitButton {
+  display: block;
+  margin: 10px auto;
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(94, 89, 134);
+  font-size: 10px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.addEmployeeButton {
+  display: block;
+  margin-right: 20px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: rgb(48, 25, 216);
+  font-size: 10px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.editEmployeeButton {
+  display: block;
+  margin-right: 20px;
+  width: 150px;
+  height: 40px;
+  border: 2px solid #596D86;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  font-size: 10px;
+  font-weight: 700;
+  color: #596D86;
+}
+
+.deleteEmployeeButton {
+  display: block;
+  margin-right: 20px;
+  width: 150px;
+  height: 40px;
+  border: 2px solid rgb(235, 38, 24);
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  font-size: 10px;
+  font-weight: 700;
+  color: rgb(235, 38, 24);
+}
+
+.addColumnButton {
+  display: block;
+  margin-right: 20px;
+  width: 150px;
+  height: 40px;
+  border: 2px solid rgb(22, 136, 18);
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  font-size: 10px;
+  font-weight: 700;
+  color: rgb(22, 136, 18);
+}
+
+.pageList {
+  display: flex;
+}
+
+.pageItem {
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  list-style-type: none;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.active {
+  background: rgb(192, 184, 206);
+}
